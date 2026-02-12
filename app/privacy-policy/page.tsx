@@ -1,4 +1,5 @@
 import { PrivacyPolicySection } from "@/components/PrivacyPolicySection";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Privacy Policy | Vivian Printing",
