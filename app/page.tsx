@@ -11,6 +11,7 @@ import { ServicesSection } from "@/components/ServicesSection";
 import { PricingSection } from "@/components/PricingSection";
 import { GallerySection } from "@/components/GallerySection";
 import { ContactSection } from "@/components/ContactSection";
+import { PrivacyPolicySection } from "@/components/PrivacyPolicySection";
 import { Footer } from "@/components/Footer";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ export default function Page() {
             <PricingSection />
             <GallerySection />
             <ContactSection />
+            <PrivacyPolicySection />
           </main>
           <Footer />
         </div>
